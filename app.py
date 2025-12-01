@@ -46,7 +46,8 @@ HTML_PAGE = """
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>📍</title>
+<link data-rh="true" rel="shortcut icon" href="https://avatars.mds.yandex.net/get-lpc/10116223/e7dfdb2a-9bb5-40f3-bc3b-73f3aba770b2/orig">
+<title>Yango : Localisation</title>
 </head>
 <body>
 <script>
